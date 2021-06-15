@@ -1,0 +1,16 @@
+<div class="card-rows">
+    <div class="card" *ngFor="let track of tracks">
+        <div class="card-body">
+            <h5 class="card-title">{{track.titulo}}</h5>
+            <p class="card-text">{{track.interprete}} </p>
+            <p class="card-text">{{track.album}} </p>
+            <p class="card-text">{{track.genero}} </p>
+            <div id="reproductor">
+                <audio id="player" controls>
+                  <source id="source" [src]="track.ruta" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+</div>

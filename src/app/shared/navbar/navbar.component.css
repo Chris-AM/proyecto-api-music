@@ -1,0 +1,16 @@
+.bg-dark {
+    display: flex;
+}
+
+a {
+    width: 30%;
+}
+
+img {
+    margin-left: 15%;
+}
+
+h1 {
+    width: 70%;
+    color: azure;
+}

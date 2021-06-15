@@ -1,0 +1,16 @@
+.footer {
+    margin-top: 5%;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    height: 5rem;
+}
+
+p {
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    color: azure;
+}
